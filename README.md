@@ -1,32 +1,24 @@
 
-<!-- ========================================================= -->
-<!-- DEVADATHAN M | MECHANICAL DESIGN & R&D ENGINEER            -->
-<!-- ========================================================= -->
-
 <div align="center">
 
-<!-- ANIMATED HEADER -->
+<!-- LOCAL ENGINEERING BANNER -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020D16,50:007FA8,100:00D9FF&height=200&section=header&text=DEVADATHAN%20M&fontSize=50&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=MECHANICAL%20DESIGN%20%7C%20R%26D%20%7C%20PRODUCT%20DEVELOPMENT&descSize=14&descAlignY=60" width="100%" alt="Devadathan M Header"/>
-
-<!-- TYPING ANIMATION -->
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=1000&color=00D9FF&center=true&vCenter=true&width=850&height=60&lines=Mechanical+Design+%26+R%26D+Engineer;Product+Development+%26+Innovation;CAD+%7C+CAE+%7C+FEA+%7C+Prototyping;Turning+Ideas+Into+Engineering+Solutions;Design.+Simulate.+Build.+Improve." alt="Animated Engineering Introduction"/>
+<img src="./assets/engineering-banner.svg" width="100%" alt="Devadathan M - Mechanical Design and R&D Engineer"/>
 
 <br/>
 
-<!-- PROFILE BADGES -->
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=21&duration=2500&pause=900&color=00D9FF&center=true&vCenter=true&width=850&height=55&lines=Mechanical+Design+%26+R%26D+Engineer;Product+Development+%26+Innovation;CAD+%7C+CAE+%7C+FEA+%7C+Prototyping;Turning+Ideas+Into+Engineering+Solutions" alt="Engineering Introduction"/>
+
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=devadathanm&style=for-the-badge&color=007FA8&label=PROFILE+VIEWS" alt="Profile Views"/>
-<img src="https://img.shields.io/github/followers/devadathanm?style=for-the-badge&color=00D9FF&labelColor=020D16&label=FOLLOWERS" alt="Followers"/>
-<img src="https://img.shields.io/github/stars/devadathanm?style=for-the-badge&color=007FA8&labelColor=020D16&label=STARS" alt="Stars"/>
+
+<img src="https://img.shields.io/github/followers/devadathanm?style=for-the-badge&color=00D9FF&labelColor=020D16" alt="Followers"/>
 
 <br/><br/>
 
-<!-- CONTACT BUTTONS -->
-
 <a href="https://devadathanm.github.io/">
-<img src="https://img.shields.io/badge/EXPLORE%20PORTFOLIO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=020D16" alt="Portfolio"/>
+<img src="https://img.shields.io/badge/PORTFOLIO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=020D16" alt="Portfolio"/>
 </a>
 
 <a href="https://www.linkedin.com/in/devadathanm">
@@ -39,54 +31,53 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/DEGREE-B.TECH%20MECHANICAL-007FA8?style=flat-square" alt="Degree"/>
-<img src="https://img.shields.io/badge/LOCATION-KERALA%2C%20INDIA-238636?style=flat-square" alt="Location"/>
-<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20OPPORTUNITIES-F59E0B?style=flat-square" alt="Availability"/>
+<img src="https://img.shields.io/badge/MECHANICAL_ENGINEERING-B.TECH-007FA8?style=flat-square" alt="Degree"/>
+<img src="https://img.shields.io/badge/LOCATION-KERALA%2C_INDIA-238636?style=flat-square" alt="Location"/>
+<img src="https://img.shields.io/badge/OPEN_TO-DESIGN_%26_R%26D-F59E0B?style=flat-square" alt="Open to work"/>
 
 </div>
 
 ---
 
-<!-- 01 ENGINEERING IDENTITY -->
-
 <h2 align="center">01 // ENGINEERING IDENTITY</h2>
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="65%" valign="top">
 
 ### Hello, I'm Devadathan M.
 
-Mechanical Design & R&D Engineer passionate about transforming engineering concepts into functional products.
+Mechanical Design & R&D Engineer interested in transforming engineering concepts into functional products.
 
-My interests lie at the intersection of:
+My engineering interests include:
 
 - Mechanical product development
 - Parametric CAD and complex assemblies
 - Structural simulation and FEA
 - Design for Manufacturing (DFM)
 - Rapid prototyping and fabrication
-- Smart mechanical systems and automation
+- Mechanical systems and automation
 
-I believe good engineering is not just about designing a component. It is about understanding how it works, how it is manufactured, and how it performs in the real world.
+My approach is simple:
+
+**Understand → Design → Analyse → Manufacture → Validate → Improve**
 
 </td>
+<td width="35%" align="center" valign="middle">
 
-<td width="38%" align="center" valign="middle">
-
-<img src="https://img.shields.io/badge/ENGINEERING-CAD%20%7C%20CAE-00D9FF?style=for-the-badge&labelColor=071824" alt="Engineering"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/LOCATION-KERALA%2C%20INDIA-007FA8?style=for-the-badge&labelColor=071824" alt="Location"/>
+<img src="https://img.shields.io/badge/FOCUS-MECHANICAL_DESIGN-00D9FF?style=for-the-badge&labelColor=071824"/>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/EDUCATION-B.TECH%20MECHANICAL-238636?style=for-the-badge&labelColor=071824" alt="Education"/>
+<img src="https://img.shields.io/badge/SPECIALITY-CAD_%2B_CAE-007FA8?style=for-the-badge&labelColor=071824"/>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/CAREER-DESIGN%20%26%20R%26D-F59E0B?style=for-the-badge&labelColor=071824" alt="Career"/>
+<img src="https://img.shields.io/badge/INTEREST-R%26D-8B5CF6?style=for-the-badge&labelColor=071824"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/APPROACH-PROTOTYPE_%26_TEST-238636?style=for-the-badge&labelColor=071824"/>
 
 </td>
 </tr>
@@ -94,128 +85,90 @@ I believe good engineering is not just about designing a component. It is about 
 
 ---
 
-<!-- 02 WHAT I DO -->
-
-<h2 align="center">02 // WHAT I DO</h2>
+<h2 align="center">02 // ENGINEERING CAPABILITIES</h2>
 
 <div align="center">
 
-<table>
-<tr>
+| ⚙️ PRODUCT DESIGN | 📊 ENGINEERING ANALYSIS |
+|:---:|:---:|
+| Concept development | Static structural analysis |
+| Parametric modelling | Thermal analysis |
+| Mechanism design | FEA fundamentals |
+| Assembly development | Design validation |
 
-<td align="center" width="25%">
-
-### ⚙️
-
-**PRODUCT DESIGN**
-
-Concept development, mechanism design, parametric modelling and engineering drawings.
-
-</td>
-
-<td align="center" width="25%">
-
-### 📊
-
-**ENGINEERING ANALYSIS**
-
-Structural analysis, thermal analysis, FEA and design validation.
-
-</td>
-
-<td align="center" width="25%">
-
-### 🖨️
-
-**PROTOTYPING**
-
-3D printing, CNC manufacturing, assembly and physical testing.
-
-</td>
-
-<td align="center" width="25%">
-
-### 🤖
-
-**RESEARCH & DEVELOPMENT**
-
-Product improvement, automation, mechanism development and innovation.
-
-</td>
-
-</tr>
-</table>
+| 🖨️ MANUFACTURING | 🤖 PRODUCT DEVELOPMENT |
+|:---:|:---:|
+| CNC manufacturing | Product improvement |
+| 3D printing | Mechanical integration |
+| Engineering drawings | Prototype development |
+| DFM / DFA | Testing and optimization |
 
 </div>
 
 ---
-
-<!-- 03 ENGINEERING WORKFLOW -->
 
 <h2 align="center">03 // ENGINEERING WORKFLOW</h2>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/01-CONCEPT%20SKETCHING-00D9FF?style=for-the-badge" alt="Concept"/>
-<img src="https://img.shields.io/badge/02-CAD%20MODELLING-007FA8?style=for-the-badge" alt="CAD"/>
-<img src="https://img.shields.io/badge/03-FEA%20SIMULATION-8B5CF6?style=for-the-badge" alt="FEA"/>
-<img src="https://img.shields.io/badge/04-PROTOTYPING-238636?style=for-the-badge" alt="Prototyping"/>
-<img src="https://img.shields.io/badge/05-VALIDATION-F59E0B?style=for-the-badge" alt="Validation"/>
+<img src="https://img.shields.io/badge/01-CONCEPT-00D9FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/02-CAD-007FA8?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/03-FEA-8B5CF6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/04-PROTOTYPE-238636?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/05-VALIDATE-F59E0B?style=for-the-badge"/>
 
 </div>
 
 ```text
-       💡 CONCEPT DEVELOPMENT
-                |
-                ▼
-       ✏️ ENGINEERING SKETCH
-                |
-                ▼
-       📐 3D CAD MODELLING
-                |
-                ▼
-       📊 FEA & SIMULATION
-                |
-                ▼
-       ⚙️ DESIGN OPTIMIZATION
-                |
-                ▼
-       🖨️ PROTOTYPE DEVELOPMENT
-                |
-                ▼
-       🧪 TESTING & VALIDATION
-                |
-                ▼
-       📋 PRODUCTION DRAWINGS
+     CONCEPT DEVELOPMENT
+              |
+              v
+     ENGINEERING SKETCH
+              |
+              v
+      3D CAD MODELLING
+              |
+              v
+      FEA & SIMULATION
+              |
+              v
+     DESIGN OPTIMIZATION
+              |
+              v
+    PROTOTYPE DEVELOPMENT
+              |
+              v
+     TESTING & VALIDATION
+              |
+              v
+     PRODUCTION DRAWINGS
 ```
 
 ---
 
-<!-- 04 TECHNOLOGY STACK -->
-
-<h2 align="center">04 // ENGINEERING TECHNOLOGY STACK</h2>
+<h2 align="center">04 // TECHNOLOGY STACK</h2>
 
 <h3 align="center">CAD & PRODUCT DESIGN</h3>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/SOLIDWORKS-E31837?style=for-the-badge&logo=dassaultsystemes&logoColor=white" alt="SOLIDWORKS"/>
-<img src="https://img.shields.io/badge/FUSION_360-0696D7?style=for-the-badge&logo=autodesk&logoColor=white" alt="Fusion 360"/>
-<img src="https://img.shields.io/badge/CATIA-005386?style=for-the-badge" alt="CATIA"/>
-<img src="https://img.shields.io/badge/NX_CAD-0077C8?style=for-the-badge" alt="NX CAD"/>
-<img src="https://img.shields.io/badge/AUTOCAD-E51050?style=for-the-badge&logo=autodesk&logoColor=white" alt="AutoCAD"/>
-<img src="https://img.shields.io/badge/REVIT_MEP-186B9B?style=for-the-badge&logo=autodesk&logoColor=white" alt="Revit MEP"/>
+<img src="https://img.shields.io/badge/SOLIDWORKS-E31837?style=for-the-badge&logo=dassaultsystemes&logoColor=white"/>
+<img src="https://img.shields.io/badge/FUSION_360-0696D7?style=for-the-badge&logo=autodesk&logoColor=white"/>
+<img src="https://img.shields.io/badge/CATIA-005386?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NX_CAD-0077C8?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AUTOCAD-E51050?style=for-the-badge&logo=autodesk&logoColor=white"/>
+<img src="https://img.shields.io/badge/REVIT_MEP-186B9B?style=for-the-badge"/>
 
 </div>
 
-<h3 align="center">CAE & ENGINEERING SIMULATION</h3>
+<h3 align="center">CAE & SIMULATION</h3>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/ANSYS-FFB71B?style=for-the-badge&logo=ansys&logoColor=black" alt="ANSYS"/>
-<img src="https://img.shields.io/badge/STATIC_STRUCTURAL-007FA8?style=for-the-badge" alt="Static Structural"/>
-<img src="https://img.shields.io/badge/THERMAL_ANALYSIS-DC2626?style=for-the-badge" alt="Thermal Analysis"/>
-<img src="https://img.shields.io/badge/FEA-8B5CF6?style=for-the-badge" alt="FEA"/>
+<img src="https://img.shields.io/badge/ANSYS-FFB71B?style=for-the-badge&logo=ansys&logoColor=black"/>
+<img src="https://img.shields.io/badge/STATIC_STRUCTURAL-007FA8?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/THERMAL_ANALYSIS-DC2626?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FINITE_ELEMENT_ANALYSIS-8B5CF6?style=for-the-badge"/>
 
 </div>
 
@@ -223,10 +176,10 @@ Product improvement, automation, mechanism development and innovation.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/MASTERCAM-0284C7?style=for-the-badge" alt="Mastercam"/>
-<img src="https://img.shields.io/badge/3D_PRINTING-238636?style=for-the-badge" alt="3D Printing"/>
-<img src="https://img.shields.io/badge/DFM_DFA-8B5CF6?style=for-the-badge" alt="DFM DFA"/>
-<img src="https://img.shields.io/badge/GD%26T-007FA8?style=for-the-badge" alt="GD&T"/>
+<img src="https://img.shields.io/badge/MASTERCAM-0284C7?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/3D_PRINTING-238636?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DFM_DFA-8B5CF6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GD%26T-007FA8?style=for-the-badge"/>
 
 </div>
 
@@ -234,19 +187,16 @@ Product improvement, automation, mechanism development and innovation.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,arduino,git,linux,vscode&theme=dark" alt="Programming and Software Icons"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,c,arduino,git,linux,vscode&theme=dark" alt="Programming tools"/>
 
 </div>
 
 ---
 
-<!-- 05 FEATURED PROJECTS -->
-
-<h2 align="center">05 // FEATURED ENGINEERING PROJECTS</h2>
+<h2 align="center">05 // FEATURED PROJECTS</h2>
 
 <table>
 <tr>
-
 <td width="50%" valign="top">
 
 ### 🌿 Cardamom Cleaning Machine
@@ -254,14 +204,13 @@ Product improvement, automation, mechanism development and innovation.
 **Mechanical Product Development**
 
 - Portable auger-based cleaning mechanism.
-- Designed for reduced water consumption.
-- Focus on efficient material handling.
-- Mechanical assembly and product development.
+- Reduced water consumption focus.
+- Efficient material handling.
+- Mechanical assembly development.
 
-<img src="https://img.shields.io/badge/STATUS-COMPLETED-238636?style=flat-square" alt="Completed"/>
+<img src="https://img.shields.io/badge/STATUS-COMPLETED-238636?style=flat-square"/>
 
 </td>
-
 <td width="50%" valign="top">
 
 ### 🧺 Steaming & Folding Machine
@@ -270,17 +219,15 @@ Product improvement, automation, mechanism development and innovation.
 
 - Automated garment-processing concept.
 - Mechanical system and assembly design.
-- CAD modelling and physical bench testing.
-- Functional mechanism development.
+- CAD modelling.
+- Physical bench testing.
 
-<img src="https://img.shields.io/badge/STATUS-COMPLETED-238636?style=flat-square" alt="Completed"/>
+<img src="https://img.shields.io/badge/STATUS-COMPLETED-238636?style=flat-square"/>
 
 </td>
-
 </tr>
 
 <tr>
-
 <td width="50%" valign="top">
 
 ### 🏎️ 11th Go-Kart Design Challenge
@@ -289,13 +236,12 @@ Product improvement, automation, mechanism development and innovation.
 
 - Tubular chassis design.
 - Steering geometry development.
-- Vehicle packaging and weight considerations.
-- Dynamic performance engineering.
+- Vehicle packaging.
+- Dynamic performance considerations.
 
-<img src="https://img.shields.io/badge/ACHIEVEMENT-TOP_10-F59E0B?style=flat-square" alt="Top 10"/>
+<img src="https://img.shields.io/badge/ACHIEVEMENT-TOP_10-F59E0B?style=flat-square"/>
 
 </td>
-
 <td width="50%" valign="top">
 
 ### ⚡ Electric Vehicle Challenge
@@ -305,111 +251,76 @@ Product improvement, automation, mechanism development and innovation.
 - Powertrain packaging.
 - Battery enclosure layout.
 - Weight distribution considerations.
-- Mechanical integration and optimization.
+- Mechanical integration.
 
-<img src="https://img.shields.io/badge/STATUS-COMPLETED-238636?style=flat-square" alt="Completed"/>
+<img src="https://img.shields.io/badge/STATUS-COMPLETED-238636?style=flat-square"/>
 
 </td>
-
 </tr>
 </table>
 
 <div align="center">
 
-### EXPLORE MORE ENGINEERING WORK
-
 <a href="https://devadathanm.github.io/">
-<img src="https://img.shields.io/badge/VIEW%20MY%20FULL%20PORTFOLIO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=020D16" alt="View Portfolio"/>
+<img src="https://img.shields.io/badge/VIEW_FULL_PROJECT_PORTFOLIO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=020D16" alt="Full Portfolio"/>
 </a>
 
 </div>
 
 ---
 
-<!-- 06 GITHUB ANALYTICS -->
-
-<h2 align="center">06 // GITHUB ENGINEERING ACTIVITY</h2>
+<h2 align="center">06 // GITHUB ANALYTICS</h2>
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=devadathanm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020D16&title_color=00D9FF&icon_color=00D9FF&text_color=F5F8FC" alt="GitHub Statistics"/>
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=devadathanm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020D16&title_color=00D9FF&icon_color=00D9FF&text_color=F5F8FC" alt="GitHub Stats"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devadathanm&layout=compact&theme=tokyonight&hide_border=true&bg_color=020D16&title_color=00D9FF&text_color=F5F8FC" alt="Top Languages"/>
-
-<br/><br/>
-
-<img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=devadathanm&theme=tokyonight&hide_border=true&background=020D16&stroke=00D9FF&ring=00D9FF&fire=F59E0B&currStreakLabel=00D9FF" alt="GitHub Streak"/>
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devadathanm&layout=compact&theme=tokyonight&hide_border=true&bg_color=020D16&title_color=00D9FF&text_color=F5F8FC" alt="Top Languages"/>
 
 <br/><br/>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=devadathanm&bg_color=020D16&color=00D9FF&line=007FA8&point=FFFFFF&area=true&hide_border=true&custom_title=ENGINEERING%20ACTIVITY%20GRAPH" alt="GitHub Activity Graph"/>
+<img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=devadathanm&theme=tokyonight&hide_border=true&background=020D16&stroke=00D9FF&ring=00D9FF&fire=F59E0B" alt="GitHub Streak"/>
 
 </div>
 
 ---
 
-<!-- 07 ENGINEERING MINDSET -->
-
-<h2 align="center">07 // ENGINEERING MINDSET</h2>
+<h2 align="center">07 // AUTONOMOUS SNAKE</h2>
 
 <div align="center">
 
-<table>
-<tr>
+### A LITTLE AUTOMATION BETWEEN ENGINEERING PROJECTS
 
-<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/devadathanm/devadathanm/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Self-playing GitHub contribution snake animation"/>
 
-### 🧠 ROOT CAUSE
-
-Understand why a component fails instead of simply replacing it.
-
-</td>
-
-<td align="center" width="33%">
-
-### 🧪 VALIDATION
-
-A design should be analysed, tested and improved.
-
-</td>
-
-<td align="center" width="33%">
-
-### ⚙️ MANUFACTURABILITY
-
-A design is not complete until it can be manufactured efficiently.
-
-</td>
-
-</tr>
-</table>
+<sub>A self-running snake animation that travels across my GitHub contribution graph.</sub>
 
 </div>
 
 ---
 
-<!-- 08 CONTACT -->
-
-<h2 align="center">08 // LET'S BUILD SOMETHING</h2>
+<h2 align="center">08 // ENGINEERING MINDSET</h2>
 
 <div align="center">
 
-I'm interested in connecting with engineering professionals, R&D teams, product developers and organizations working on innovative mechanical systems.
+| 🧠 ROOT CAUSE | 🧪 VALIDATION | ⚙️ MANUFACTURABILITY |
+|:---:|:---:|:---:|
+| Understand why components fail. | Analyse, test and improve. | Design for real-world manufacturing. |
+
+</div>
+
+---
+
+<h2 align="center">09 // LET'S CONNECT</h2>
+
+<div align="center">
+
+Interested in connecting with engineering professionals, product development teams, R&D departments and organizations building innovative mechanical systems.
 
 <br/>
 
-**OPEN TO OPPORTUNITIES IN**
-
-<img src="https://img.shields.io/badge/MECHANICAL%20DESIGN-007FA8?style=flat-square" alt="Mechanical Design"/>
-<img src="https://img.shields.io/badge/PRODUCT%20DEVELOPMENT-00D9FF?style=flat-square" alt="Product Development"/>
-<img src="https://img.shields.io/badge/RESEARCH%20%26%20DEVELOPMENT-8B5CF6?style=flat-square" alt="R&D"/>
-<img src="https://img.shields.io/badge/CAE%20%26%20FEA-F59E0B?style=flat-square" alt="CAE"/>
-<img src="https://img.shields.io/badge/PROTOTYPING-238636?style=flat-square" alt="Prototyping"/>
-
-<br/><br/>
-
 <a href="https://devadathanm.github.io/">
-<img src="https://img.shields.io/badge/🌐_PORTFOLIO-00D9FF?style=for-the-badge" alt="Portfolio"/>
+<img src="https://img.shields.io/badge/PORTFOLIO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=020D16" alt="Portfolio"/>
 </a>
 
 <a href="https://www.linkedin.com/in/devadathanm">
@@ -422,12 +333,12 @@ I'm interested in connecting with engineering professionals, R&D teams, product 
 
 <br/><br/>
 
-### "ENGINEERING IS THE ART OF TURNING CONSTRAINTS INTO POSSIBILITIES."
+**"Engineering is the art of turning constraints into possibilities."**
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:007FA8,100:020D16&height=130&section=footer" width="100%" alt="Animated Footer"/>
+<img src="./assets/engineering-banner.svg" width="100%" alt="Engineering Footer"/>
 
 </div>
 
-<!-- END OF README -->
+<!-- END -->
