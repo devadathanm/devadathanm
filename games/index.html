@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engineering Arcade | Devadathan M</title>
+<style>
+:root {
+  --bg:#020D16; --panel:#071824; --cyan:#00D9FF;
+  --muted:#91A9BF; --white:#F5F8FC; --line:#123B50;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0; min-height:100vh; color:var(--white);
+  background:
+    radial-gradient(ellipse at 15% 0%,#073149 0,transparent 42%),
+    radial-gradient(ellipse at 90% 90%,#06243a 0,transparent 38%),
+    var(--bg);
+  font-family:Arial,sans-serif;
+}
+header { text-align:center; padding:48px 18px 24px; }
+.kicker { color:var(--cyan); letter-spacing:4px; font-size:12px; }
+h1 { font-size:clamp(30px,6vw,54px); margin:12px 0; }
+h1 span { color:var(--cyan); }
+header p { color:var(--muted); }
+main { max-width:1000px; margin:auto; padding:20px; }
+.tabs {
+  display:flex; flex-wrap:wrap; justify-content:center;
+  gap:10px; margin:20px 0;
+}
+button {
+  border:1px solid var(--line); background:#0b2332; color:var(--white);
+  padding:12px 18px; border-radius:9px; cursor:pointer;
+  font-weight:bold; transition:.2s;
+}
+button:hover,button.active {
+  border-color:var(--cyan); color:var(--cyan);
+  box-shadow:0 0 18px #00d9ff30; transform:translateY(-2px);
+}
+.panel {
+  background:linear-gradient(145deg,#0a2030,#06131e);
+  border:1px solid var(--line); border-radius:18px;
+  padding:24px; min-height:390px;
+  box-shadow:0 15px 50px #0006;
+}
+.game { display:none; text-align:center; }
+.game.active { display:block; animation:appear .35s ease; }
+@keyframes appear {
+  from { opacity:0; transform:translateY(10px); }
+  to { opacity:1; transform:translateY(0); }
+}
+h2 { color:var(--cyan); }
+.muted { color:var(--muted); }
+.score { color:var(--cyan); font-size:22px; font-weight:bold; margin:14px; }
+#snakeCanvas {
+  width:min(100%,400px); height:auto; background:#020b12;
+  border:1px solid var(--line); border-radius:10px;
+}
+#memoryGrid {
+  display:grid; grid-template-columns:repeat(4,minmax(48px,75px));
+  justify-content:center; gap:10px; margin:20px auto;
+}
+.tile {
+  height:65px; font-size:25px; padding:0;
+  background:#102c3d; border:1px solid #17435b;
+}
+.tile.revealed { background:#07374a; color:var(--cyan); }
+#reactionBox {
+  max-width:520px; height:180px; margin:22px auto;
+  border:2px dashed var(--cyan); border-radius:14px;
+  display:grid; place-items:center; padding:15px;
+  background:#071824; cursor:pointer; font-size:20px;
+}
+#reactionBox.ready { background:#075b42; border-color:#4cffac; }
+#reactionBox.wait { background:#743126; border-color:#ff876e; }
+#quizOptions { display:grid; gap:10px; max-width:520px; margin:20px auto; }
+#quizOptions button { text-align:left; }
+footer { text-align:center; padding:35px 15px; color:var(--muted); font-size:13px; }
+a { color:var(--cyan); }
+@media(max-width:550px) {
+  .panel { padding:15px; }
+  button { padding:10px 12px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">DEVADATHAN M // DIGITAL PLAYGROUND</div>
+  <h1>ENGINEERING <span>ARCADE</span></h1>
+  <p>Four mini challenges. One engineering mindset. How high can you score?</p>
+</header>
+
+<main>
+  <nav class="tabs">
+    <button class="active" data-game="snake">🐍 Snake</button>
+    <button data-game="memory">🧠 Memory</button>
+    <button data-game="reaction">⚡ Reaction</button>
+    <button data-game="quiz">⚙️ Engineering Quiz</button>
+  </nav>
+
+  <section class="panel">
+    <div class="game active" id="snake">
+      <h2>01 / SNAKE PROTOCOL</h2>
+      <p class="muted">Collect cyan energy cells. Avoid the walls and yourself.</p>
+      <div class="score">Score: <span id="snakeScore">0</span></div>
+      <canvas id="snakeCanvas" width="400" height="400"></canvas>
+      <p><button id="snakeStart">Start / Restart</button></p>
+      <p class="muted">Use arrow keys or WASD. On mobile, use the buttons below.</p>
+      <div>
+        <button class="move" data-dir="up">↑</button><br>
+        <button class="move" data-dir="left">←</button>
+        <button class="move" data-dir="down">↓</button>
+        <button class="move" data-dir="right">→</button>
+      </div>
+      <p id="snakeMessage" class="muted">Ready when you are.</p>
+    </div>
+
+    <div class="game" id="memory">
+      <h2>02 / MEMORY MATRIX</h2>
+      <p class="muted">Find all matching engineering symbols.</p>
+      <div class="score">Moves: <span id="moves">0</span> | Pairs: <span id="pairs">0</span>/8</div>
+      <div id="memoryGrid"></div>
+      <button id="memoryStart">New Game</button>
+      <p id="memoryMessage" class="muted">Match all eight pairs.</p>
+    </div>
+
+    <div class="game" id="reaction">
+      <h2>03 / REACTION ENGINE</h2>
+      <p class="muted">Wait for green, then click as fast as possible.</p>
+      <div class="score">Best: <span id="bestReaction">—</span></div>
+      <div id="reactionBox">Press Start to initialize</div>
+      <button id="reactionStart">Start Test</button>
+      <p id="reactionResult" class="muted">False starts will reset the test.</p>
+    </div>
+
+    <div class="game" id="quiz">
+      <h2>04 / ENGINEERING KNOWLEDGE TEST</h2>
+      <p class="muted">A quick test of mechanical engineering fundamentals.</p>
+      <div class="score">Question: <span id="qNumber">0</span>/8 | Score: <span id="qScore">0</span></div>
+      <h3 id="question">Press Start Quiz</h3>
+      <div id="quizOptions"></div>
+      <button id="quizStart">Start Quiz</button>
+      <p id="quizMessage" class="muted">Let's test your engineering knowledge.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  BUILT FOR CURIOSITY · DESIGNED BY DEVADATHAN M<br><br>
+  <a href="https://github.com/devadathanm">GitHub</a> ·
+  <a href="https://devadathanm.github.io/">Portfolio</a>
+</footer>
+
+<script>
+/* GAME NAVIGATION */
+document.querySelectorAll(".tabs button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tabs button").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".game").forEach(g => g.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById(btn.dataset.game).classList.add("active");
+  });
+});
+
+/* SNAKE */
+const canvas = document.getElementById("snakeCanvas");
+const ctx = canvas.getContext("2d");
+const cell = 20;
+let snake, food, dx, dy, snakeScore, snakeTimer, running = false;
+
+function placeFood() {
+  food = {x:Math.floor(Math.random()*20),y:Math.floor(Math.random()*20)};
+  if (snake.some(s => s.x===food.x && s.y===food.y)) placeFood();
+}
+function drawSnake() {
+  ctx.fillStyle="#020b12"; ctx.fillRect(0,0,400,400);
+  ctx.strokeStyle="#103044";
+  for(let i=0;i<=400;i+=cell) {
+    ctx.beginPath();ctx.moveTo(i,0);ctx.lineTo(i,400);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(0,i);ctx.lineTo(400,i);ctx.stroke();
+  }
+  ctx.fillStyle="#00D9FF";
+  ctx.shadowColor="#00D9FF";ctx.shadowBlur=15;
+  ctx.fillRect(food.x*cell+3,food.y*cell+3,14,14);
+  snake.forEach((s,i)=>{
+    ctx.fillStyle=i===0?"#f5f8fc":"#00a8c9";
+    ctx.fillRect(s.x*cell+2,s.y*cell+2,16,16);
+  });
+  ctx.shadowBlur=0;
+}
+function endSnake() {
+  running=false;clearInterval(snakeTimer);
+  document.getElementById("snakeMessage").textContent="Game over! Final score: "+snakeScore+". Restart to play again.";
+}
+function stepSnake() {
+  const head={x:snake[0].x+dx,y:snake[0].y+dy};
+  if(head.x<0||head.x>=20||head.y<0||head.y>=20||
+     snake.some(s=>s.x===head.x&&s.y===head.y)){endSnake();return;}
+  snake.unshift(head);
+  if(head.x===food.x&&head.y===food.y){
+    snakeScore+=10;
+    document.getElementById("snakeScore").textContent=snakeScore;
+    placeFood();
+  } else snake.pop();
+  drawSnake();
+}
+function setDirection(dir) {
+  const dirs={up:[0,-1],down:[0,1],left:[-1,0],right:[1,0]};
+  const [nx,ny]=dirs[dir];
+  if(nx!==-dx||ny!==-dy){dx=nx;dy=ny;}
+}
+function startSnake() {
+  clearInterval(snakeTimer);
+  snake=[{x:10,y:10},{x:9,y:10},{x:8,y:10}];
+  dx=1;dy=0;snakeScore=0;running=true;
+  document.getElementById("snakeScore").textContent=0;
+  document.getElementById("snakeMessage").textContent="Game running!";
+  placeFood();drawSnake();
+  snakeTimer=setInterval(stepSnake,115);
+}
+document.getElementById("snakeStart").onclick=startSnake;
+document.querySelectorAll(".move").forEach(b=>b.onclick=()=>setDirection(b.dataset.dir));
+document.addEventListener("keydown",e=>{
+  const keys={ArrowUp:"up",w:"up",ArrowDown:"down",s:"down",
+              ArrowLeft:"left",a:"left",ArrowRight:"right",d:"right"};
+  if(keys[e.key]&&document.getElementById("snake").classList.contains("active")){
+    e.preventDefault();setDirection(keys[e.key]);
+  }
+});
+drawSnake();
+
+/* MEMORY MATCH */
+const symbols=["⚙️","🔩","🛠️","🚀","⚡","🔧","🤖","🧲"];
+let first=null,lock=false,moves=0,matched=0;
+function newMemory() {
+  const deck=[...symbols,...symbols].sort(()=>Math.random()-.5);
+  const grid=document.getElementById("memoryGrid");
+  grid.innerHTML="";first=null;lock=false;moves=0;matched=0;
+  document.getElementById("moves").textContent=0;
+  document.getElementById("pairs").textContent=0;
+  document.getElementById("memoryMessage").textContent="Find the matching pairs.";
+  deck.forEach((symbol,i)=>{
+    const b=document.createElement("button");
+    b.className="tile";b.textContent="?";b.dataset.symbol=symbol;b.dataset.index=i;
+    b.onclick=()=>{
+      if(lock||b.classList.contains("revealed")||b.disabled)return;
+      b.textContent=symbol;b.classList.add("revealed");
+      if(!first){first=b;return;}
+      moves++;document.getElementById("moves").textContent=moves;
+      if(first.dataset.symbol===symbol){
+        first.disabled=true;b.disabled=true;first=null;matched++;
+        document.getElementById("pairs").textContent=matched;
+        if(matched===8)document.getElementById("memoryMessage").textContent="Excellent! Matrix completed in "+moves+" moves.";
+      } else {
+        lock=true;const previous=first;first=null;
+        setTimeout(()=>{
+          previous.textContent="?";b.textContent="?";
+          previous.classList.remove("revealed");b.classList.remove("revealed");
+          lock=false;
+        },750);
+      }
+    };
+    grid.appendChild(b);
+  });
+}
+document.getElementById("memoryStart").onclick=newMemory;
+newMemory();
+
+/* REACTION TEST */
+const reactionBox=document.getElementById("reactionBox");
+let reactionState="idle",reactionTimer=null,startedAt=0,best=null;
+function startReaction() {
+  clearTimeout(reactionTimer);reactionState="waiting";
+  reactionBox.className="wait";reactionBox.textContent="Wait for green...";
+  document.getElementById("reactionResult").textContent="Stay ready.";
+  reactionTimer=setTimeout(()=>{
+    reactionState="ready";startedAt=performance.now();
+    reactionBox.className="ready";reactionBox.textContent="CLICK NOW!";
+  },1500+Math.random()*3000);
+}
+document.getElementById("reactionStart").onclick=startReaction;
+reactionBox.onclick=()=>{
+  if(reactionState==="waiting"){
+    clearTimeout(reactionTimer);reactionState="idle";
+    reactionBox.className="";reactionBox.textContent="False start!";
+    document.getElementById("reactionResult").textContent="Too early. Try again.";
+  } else if(reactionState==="ready"){
+    const time=Math.round(performance.now()-startedAt);
+    reactionState="idle";reactionBox.className="";
+    reactionBox.textContent=time+" ms";
+    document.getElementById("reactionResult").textContent=
+      time<200?"Lightning fast!":time<300?"Excellent response!":"Keep practicing!";
+    if(best===null||time<best)best=time;
+    document.getElementById("bestReaction").textContent=best+" ms";
+  }
+};
+
+/* ENGINEERING QUIZ */
+const questions=[
+  {q:"What is the SI unit of stress?",a:["Newton","Pascal","Joule","Watt"],c:1},
+  {q:"Which test is commonly used to measure material hardness?",a:["Tensile test","Impact test","Brinell test","Fatigue test"],c:2},
+  {q:"What does FEA stand for?",a:["Finite Element Analysis","Force Engineering Application","Final Energy Assessment","Finite Energy Algorithm"],c:0},
+  {q:"Which gear type has parallel axes and straight teeth?",a:["Bevel","Worm","Spur","Hypoid"],c:2},
+  {q:"What is the SI unit of power?",a:["Joule","Watt","Pascal","Newton"],c:1},
+  {q:"Which process removes material using a rotating cutter?",a:["Casting","Milling","Forging","Welding"],c:1},
+  {q:"Young's modulus relates stress to what?",a:["Strain","Density","Hardness","Temperature"],c:0},
+  {q:"Which instrument measures small linear dimensions accurately?",a:["Protractor","Micrometer","Spirit level","Tachometer"],c:1}
+];
+let qi=0,qs=0,answered=false;
+function startQuiz(){
+  qi=0;qs=0;answered=false;
+  document.getElementById("qScore").textContent=0;
+  document.getElementById("quizStart").textContent="Restart Quiz";
+  showQuestion();
+}
+function showQuestion(){
+  const q=questions[qi];
+  document.getElementById("qNumber").textContent=qi+1;
+  document.getElementById("question").textContent=q.q;
+  document.getElementById("quizMessage").textContent="Choose your answer.";
+  const box=document.getElementById("quizOptions");box.innerHTML="";
+  q.a.forEach((answer,i)=>{
+    const b=document.createElement("button");b.textContent=answer;
+    b.onclick=()=>{
+      if(answered)return;answered=true;
+      if(i===q.c){qs++;document.getElementById("qScore").textContent=qs;
+        document.getElementById("quizMessage").textContent="Correct. Good engineering!";
+      }else{
+        document.getElementById("quizMessage").textContent="Not quite. Correct answer: "+q.a[q.c];
+      }
+      [...box.children].forEach(x=>x.disabled=true);
+      const next=document.createElement("button");
+      next.textContent=qi===questions.length-1?"See Results":"Next Question";
+      next.onclick=()=>{
+        qi++;answered=false;
+        if(qi<questions.length)showQuestion();
+        else{
+          document.getElementById("question").textContent="Quiz completed!";
+          box.innerHTML="";
+          document.getElementById("quizMessage").textContent=
+            "Final score: "+qs+"/8. "+(qs===8?"Perfect score!":"Keep learning and try again.");
+          document.getElementById("qNumber").textContent=8;
+        }
+      };
+      box.appendChild(next);
+    };
+    box.appendChild(b);
+  });
+}
+document.getElementById("quizStart").onclick=startQuiz;
+</script>
+</body>
+</html>
