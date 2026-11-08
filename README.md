@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=300&size=34&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Devadathan+M+%F0%9F%91%8B;Mechanical+Design+%26+R%26D+Engineer+%E2%9A%99%EF%B8%8F;I+design+machines+that+think+%F0%9F%A4%96;From+sketch+to+working+prototype+%E2%9C%8F%EF%B8%8F%E2%9E%A1%EF%B8%8F%F0%9F%94%A7;Kottayam%2C+Kerala+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing introduction" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:070b10,60:0c1a24,100:22d3ee&height=200&section=header&text=Devadathan%20M&fontSize=60&fontColor=e8edf2&fontAlignY=40&animation=twinkling&desc=Mechanical%20Design%20%26%20R%26D%20Engineer&descAlignY=62&descSize=18&descColor=22d3ee" alt="Header banner" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=300&size=28&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=780&lines=Hi%2C+I'm+Devadathan+M+%F0%9F%91%8B;I+design+machines+that+think+%F0%9F%A4%96;From+sketch+to+working+prototype+%E2%9C%8F%EF%B8%8F;Hardware+%2B+software+%3D+my+favourite+mix+%E2%9A%A1;Kottayam%2C+Kerala+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing introduction" />
 
 <br/>
 
@@ -11,7 +13,16 @@
 <br/>
 
 ![Profile views](https://komarev.com/ghpvc/?username=devadathanm&label=Profile+views&color=22d3ee&style=flat-square&labelColor=070b10)
-![Followers](https://img.shields.io/github/followers/devadathanm?label=Followers&style=flat-square&color=22d3ee&labelColor=070b10)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💬 Quote of the workshop
+
+<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=300&size=22&duration=3500&pause=1200&color=8D99A6&center=true&vCenter=true&width=700&lines=Measure+twice%2C+cut+once.;Tolerances+are+where+the+real+design+lives.;If+it+works+on+paper%2C+test+it+on+the+bench." alt="Workshop quotes" />
 
 </div>
 
@@ -19,29 +30,31 @@
 
 ## ⚡ What gets me excited
 
-- 🤖 **Machines that think.** Mechanisms with sensors, motors and a little logic.
-- 🔧 **Designs that improve.** Taking a working machine and making it lighter, cheaper or simpler.
-- 🖨️ **Parts I can hold.** Machined and 3D-printed prototypes, tested until they behave.
-- 📐 **CAD that can be made.** Models designed for manufacturing, drawn to standards.
+| | |
+|:-|:-|
+| 🤖 **Machines that think** | Mechanisms with sensors, motors and a little logic |
+| 🔧 **Designs that improve** | Taking a working machine and making it lighter, cheaper or simpler |
+| 🖨️ **Parts I can hold** | Machined and 3D-printed prototypes, tested until they behave |
+| 📐 **CAD that can be made** | Models designed for manufacturing, drawn to standards |
 
 ---
 
 ## 🧰 Toolbox
 
-**Design and CAD**
-![Fusion 360](https://img.shields.io/badge/Fusion_360-0696d7?style=for-the-badge&logo=autodesk&logoColor=white)
-![SOLIDWORKS](https://img.shields.io/badge/SOLIDWORKS-d7141a?style=for-the-badge)
-![CATIA](https://img.shields.io/badge/CATIA-1f5f8b?style=for-the-badge)
-![Revit MEP](https://img.shields.io/badge/Revit_MEP-0696d7?style=for-the-badge)
-![MicroStation](https://img.shields.io/badge/MicroStation-2a2a2a?style=for-the-badge)
-![AutoCAD](https://img.shields.io/badge/AutoCAD_Mechanical-e51050?style=for-the-badge)
+**🎨 Design and CAD**
+`Fusion 360` · `SOLIDWORKS` · `CATIA` · `Revit MEP` · `MicroStation` · `AutoCAD Mechanical`
 
-**Analysis and making**
-![ANSYS](https://img.shields.io/badge/ANSYS_Workbench-ffb71b?style=for-the-badge&logoColor=black)
-![Mastercam](https://img.shields.io/badge/Mastercam-1d4ed8?style=for-the-badge)
-![3D Printing](https://img.shields.io/badge/3D_Printing-22d3ee?style=for-the-badge&logoColor=black)
-![Manual Drafting](https://img.shields.io/badge/Manual_Drafting-8d99a6?style=for-the-badge)
-![GD&T](https://img.shields.io/badge/GD%26T-a78bfa?style=for-the-badge)
+**🔬 Analysis and making**
+`ANSYS Workbench` · `Mastercam` · `3D printing` · `Manual drafting` · `GD&T`
+
+<br/>
+
+![Fusion 360](https://img.shields.io/badge/Fusion_360-0696d7?style=flat-square)
+![SOLIDWORKS](https://img.shields.io/badge/SOLIDWORKS-d7141a?style=flat-square)
+![CATIA](https://img.shields.io/badge/CATIA-1f5f8b?style=flat-square)
+![ANSYS](https://img.shields.io/badge/ANSYS-ffb71b?style=flat-square&logoColor=black)
+![Mastercam](https://img.shields.io/badge/Mastercam-1d4ed8?style=flat-square)
+![3D Printing](https://img.shields.io/badge/3D_Printing-22d3ee?style=flat-square&logoColor=black)
 
 ---
 
@@ -58,10 +71,12 @@
 
 ## 🎲 Fun corner
 
-- 🧩 **Currently puzzling over:** <!-- [ADD] one open problem you're thinking about -->
-- ☕ **Fuel of choice while designing:** <!-- [ADD] e.g. chai, coffee -->
-- 🔩 **Favourite fastener:** <!-- [ADD] -->
-- 🎯 **Next build:** <!-- [ADD] one sentence -->
+| | |
+|:-|:-|
+| 🧩 **Currently puzzling over** | <!-- [ADD] one open problem --> |
+| ☕ **Fuel while designing** | <!-- [ADD] e.g. chai, coffee --> |
+| 🔩 **Favourite fastener** | <!-- [ADD] --> |
+| 🎯 **Next build** | <!-- [ADD] one sentence --> |
 
 ---
 
@@ -79,6 +94,6 @@
 
 <br/>
 
-Thanks for stopping by 🙌
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,100:070b10&height=110&section=footer" alt="Footer" width="100%" />
 
 </div>
