@@ -1,6 +1,6 @@
-<h1 align="center">Devadathan M</h1>
-<h3 align="center">Mechanical Design & R&D Engineer</h3>
-<p align="center"><i>Machines that think. Designs that get built, tested and improved.</i></p>
+<p align="center">
+  <img src="banner.svg" alt="Devadathan M, Mechanical Design and R&D Engineer" width="100%"/>
+</p>
 
 <p align="center">
   <a href="https://devadathanm.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-visit-22d3ee?style=for-the-badge&labelColor=0a0f16&logo=googlechrome&logoColor=white"></a>
@@ -25,25 +25,24 @@
 
 ### 🧭 From sketch to build
 
-```text
-✏️ Sketch ──▶ 🧩 Model ──▶ 📊 Analyze ──▶ 🔩 Make ──▶ 📐 Standards
-  manual        Fusion 360    ANSYS          Mastercam     GD&T
-  drafting      SOLIDWORKS    Workbench      3D printing
-  AutoCAD       CATIA
-  Mechanical    Revit MEP
-                MicroStation
-```
+| Stage | Tools |
+|:--|:--|
+| ✏️ **Sketch** | Manual drafting · AutoCAD Mechanical |
+| 🧩 **Model** | Fusion 360 · SOLIDWORKS · CATIA · Revit MEP · MicroStation |
+| 📊 **Analyze** | ANSYS Workbench |
+| 🔩 **Make** | Mastercam · 3D printing |
+| 📐 **Standards** | GD&T |
 
 ---
 
 ### 🏁 Projects
 
-| | Project | What it is |
-|:-:|:--|:--|
-| 🌿 | **Cardamom Cleaning Machine** | Portable auger-based cleaner, minimal water use |
-| 🧺 | **Steaming & Folding Machine** | Automated garment steaming and folding, concept to fabrication |
-| 🏎️ | **11th Go-Kart Design Challenge** | Tubular chassis, steering geometry and track testing |
-| ⚡ | **Electric Vehicle Challenge** | Electric powertrain layout and packaging efficiency |
+| Project | What it is |
+|:--|:--|
+| 🌿 **Cardamom Cleaning Machine** | Portable auger-based cleaner, minimal water use |
+| 🧺 **Steaming & Folding Machine** | Automated garment steaming and folding, concept to fabrication |
+| 🏎️ **11th Go-Kart Design Challenge** | Tubular chassis, steering geometry and track testing |
+| ⚡ **Electric Vehicle Challenge** | Electric powertrain layout and packaging efficiency |
 
 ---
 
@@ -58,21 +57,10 @@
 
 </details>
 
-<details>
-<summary><b>🧰 Full toolbox (click to open)</b></summary>
-
-<br/>
-
-**Design and CAD:** Fusion 360 · SOLIDWORKS · CATIA · Revit MEP · MicroStation · AutoCAD Mechanical
-
-**Analysis and making:** ANSYS Workbench · Mastercam · 3D printing · Manual drafting · GD&T
-
-</details>
-
----
-
 > [!NOTE]
 > Open to **R&D and design roles** and **freelance CAD and hardware projects**.
-> For the full project galleries, animations and contact details, visit [my portfolio](https://devadathanm.github.io/).
+> For full project galleries and animations, visit [my portfolio](https://devadathanm.github.io/).
 
-<p align="center"><sub>Measure twice, cut once. ✂️ &nbsp;·&nbsp; Thanks for stopping by! 🙌</sub></p>
+<p align="center">
+  <img src="footer.svg" alt="Footer waves" width="100%"/>
+</p>
